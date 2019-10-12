@@ -1,0 +1,40 @@
+.header-container{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.logo{
+    font-family:serif;
+    font-size: 45px;
+}
+.logo:hover{
+    color: yellow;
+}
+.logo-color{
+    color: yellow;
+}
+.logo-s-color{
+    color: red;
+}
+.header-btn{
+    font-size: 18px !important;
+    text-decoration: none;
+    color: white;
+}
+.header-btn:hover{
+   color: red;
+}
+@media screen and (max-width:500px){
+    .logo{
+        font-size: 30px !important;
+            } 
+    .header-btn{
+        font-size: 15px !important;
+    } 
+            
+}
+@media screen and (max-width:600px){
+    .logo{
+        font-size: 35px;
+            }           
+}

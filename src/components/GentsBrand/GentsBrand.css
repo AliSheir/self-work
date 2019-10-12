@@ -1,0 +1,38 @@
+.card-container{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+}
+
+.img{
+    width: 250px !important;
+    height: 250px !important;
+}
+.card-container-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card-div1{
+    display: flex;
+    justify-content: space-around;
+}
+.for-more-btn-div{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+.for-more-btn{
+    background-color: pink;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+@media screen and (max-width:600px){
+    .img{
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
